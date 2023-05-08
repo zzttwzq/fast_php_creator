@@ -1,0 +1,1157 @@
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:51:41 
+2022-01-15 22:51:41 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(47) 
+2022-01-15 22:51:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:51:41 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/pages//plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(76) 
+2022-01-15 22:51:41 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(91): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_plan.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_plan_tag.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_plan_score_tag.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_plan_data.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_admin_user.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_mp_user.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:52:53 [success] < back_up > 文件备份成功：./back/table_json/1642258373_role.json 
+2022-01-15 22:52:53 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:52:53 
+2022-01-15 22:52:53 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:52:53 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:52:53 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/pages//plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:52:53 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_plan.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_plan_tag.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_plan_score_tag.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_plan_data.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_admin_user.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_mp_user.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:53:33 [success] < back_up > 文件备份成功：./back/table_json/1642258413_role.json 
+2022-01-15 22:53:33 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:53:33 
+2022-01-15 22:53:33 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:53:33 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:53:33 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/pages/plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:53:33 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_plan.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_plan_tag.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_plan_score_tag.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_plan_data.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_admin_user.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_mp_user.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:54:09 [success] < back_up > 文件备份成功：./back/table_json/1642258449_role.json 
+2022-01-15 22:54:09 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:54:09 
+2022-01-15 22:54:09 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:54:09 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:54:09 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/pages/plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:54:09 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_plan.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_plan_tag.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_plan_score_tag.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_plan_data.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_admin_user.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_mp_user.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:54:33 [success] < back_up > 文件备份成功：./back/table_json/1642258473_role.json 
+2022-01-15 22:54:33 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:54:33 
+2022-01-15 22:54:33 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:54:33 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:54:33 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/pages/plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:54:33 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_plan.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_plan_tag.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_plan_score_tag.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_plan_data.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_admin_user.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_mp_user.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:55:19 [success] < back_up > 文件备份成功：./back/table_json/1642258519_role.json 
+2022-01-15 22:55:19 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:55:19 
+2022-01-15 22:55:19 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:55:19 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:55:19 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:55:19 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_plan.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_plan_tag.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_plan_score_tag.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_plan_data.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_admin_user.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_mp_user.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:55:41 [success] < back_up > 文件备份成功：./back/table_json/1642258541_role.json 
+2022-01-15 22:55:41 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:55:41 
+2022-01-15 22:55:41 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:55:41 [warn] < back_up > 文件不存在！ 
+2022-01-15 22:55:41 [warn] < SYSTEM > 2: fopen(/temp/antd_admin_list/plan/index.vue): failed to open stream: No such file or directory at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(80) 
+2022-01-15 22:55:41 [error] < antd_admin_list > 创建文件失败，请检查目录权限！
+  [stacktrace]
+  #0 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(95): function:ERROR
+  #1 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(216): function:writeFile
+  #2 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/admin_creator.php(33): function:createAntdList
+  #3 file:/Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/test.php(52): function:createAntdLists
+ 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_plan.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_plan_tag.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_plan_score_tag.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_plan_data.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_admin_user.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_mp_user.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:57:22 [success] < back_up > 文件备份成功：./back/table_json/1642258642_role.json 
+2022-01-15 22:57:22 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:57:22 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_plan.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_plan_tag.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_plan_score_tag.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_plan_data.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_admin_user.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_mp_user.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:57:46 [success] < back_up > 文件备份成功：./back/table_json/1642258666_role.json 
+2022-01-15 22:57:46 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:57:46 
+2022-01-15 22:57:46 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_plan.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_plan_tag.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_plan_score_tag.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_plan_data.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_admin_user.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_mp_user.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 22:58:59 [success] < back_up > 文件备份成功：./back/table_json/1642258739_role.json 
+2022-01-15 22:58:59 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 22:58:59 
+2022-01-15 22:58:59 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_plan.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_plan_tag.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_plan_score_tag.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_plan_data.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_admin_user.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_mp_user.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:18:31 [success] < back_up > 文件备份成功：./back/table_json/1642259911_role.json 
+2022-01-15 23:18:31 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:18:31 
+2022-01-15 23:18:31 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_plan.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_plan_tag.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_plan_score_tag.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_plan_data.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_admin_user.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_mp_user.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:19:21 [success] < back_up > 文件备份成功：./back/table_json/1642259961_role.json 
+2022-01-15 23:19:21 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:19:21 
+2022-01-15 23:19:21 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_plan.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_plan_tag.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_plan_score_tag.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_plan_data.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_admin_user.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_mp_user.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:19:42 [success] < back_up > 文件备份成功：./back/table_json/1642259982_role.json 
+2022-01-15 23:19:42 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:19:42 
+2022-01-15 23:19:42 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_plan.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_plan_tag.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_plan_score_tag.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_plan_data.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_admin_user.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_mp_user.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:19:54 [success] < back_up > 文件备份成功：./back/table_json/1642259994_role.json 
+2022-01-15 23:19:54 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:19:54 
+2022-01-15 23:19:54 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_plan.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_plan_tag.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_plan_score_tag.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_plan_data.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_admin_user.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_mp_user.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:20:06 [success] < back_up > 文件备份成功：./back/table_json/1642260006_role.json 
+2022-01-15 23:20:06 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:20:06 
+2022-01-15 23:20:06 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_plan.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_plan_tag.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_plan_score_tag.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_plan_data.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_admin_user.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_mp_user.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:20:26 [success] < back_up > 文件备份成功：./back/table_json/1642260026_role.json 
+2022-01-15 23:20:26 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:20:26 
+2022-01-15 23:20:26 [warn] < SYSTEM > 2: mkdir(): Read-only file system at file /Users/wuzhiqiang/Desktop/nginx_html/fast_php_creator/file_handler.php(51) 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_plan.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_plan_tag.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_plan_score_tag.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_plan_data.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_admin_user.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_mp_user.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:21:27 [success] < back_up > 文件备份成功：./back/table_json/1642260087_role.json 
+2022-01-15 23:21:27 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:21:27 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_plan.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_plan_tag.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_plan_score_tag.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_plan_data.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_admin_user.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_mp_user.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/table_json/1642260103_role.json 
+2022-01-15 23:21:43 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:21:43 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/plan/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/plan-tag/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/plan-score-tag/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/plan-data/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/admin-user/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/mp-user/index.vue 
+2022-01-15 23:21:43 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_list/role/index.vue 
+2022-01-15 23:21:43 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260103_local.js 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_config/local.js 
+2022-01-15 23:21:43 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260103_api.js 
+2022-01-15 23:21:43 [success] < antd_admin_list > 生成 ./temp/antd_admin_config/api.js 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_plan.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_plan_tag.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_plan_score_tag.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_plan_data.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_admin_user.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_mp_user.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/table_json/1642260128_role.json 
+2022-01-15 23:22:08 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:22:08 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:22:08 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260128_index.vue 
+2022-01-15 23:22:08 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:22:09 
+2022-01-15 23:22:09 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260129_local.js 
+2022-01-15 23:22:09 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:22:09 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260129_api.js 
+2022-01-15 23:22:09 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_plan.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_plan_tag.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_plan_score_tag.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_plan_data.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_admin_user.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_mp_user.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/table_json/1642260298_role.json 
+2022-01-15 23:24:58 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:24:58 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_index.vue 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:24:58 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_local.js 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:24:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260298_api.js 
+2022-01-15 23:24:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_plan.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_plan_tag.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_plan_score_tag.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_plan_data.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_admin_user.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_mp_user.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/table_json/1642260340_role.json 
+2022-01-15 23:25:40 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:25:40 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_index.vue 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:25:40 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_local.js 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:25:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260340_api.js 
+2022-01-15 23:25:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_plan.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_plan_tag.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_plan_score_tag.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_plan_data.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_admin_user.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_mp_user.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/table_json/1642260376_role.json 
+2022-01-15 23:26:16 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:26:16 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_index.vue 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:26:16 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_local.js 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:26:16 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642260376_api.js 
+2022-01-15 23:26:16 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_plan.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_plan_tag.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_plan_score_tag.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_plan_data.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_admin_user.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_mp_user.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:26:35 [success] < back_up > 文件备份成功：./back/table_json/1642260395_role.json 
+2022-01-15 23:26:35 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_plan.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_plan_tag.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_plan_score_tag.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_plan_data.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_admin_user.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_mp_user.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:26:56 [success] < back_up > 文件备份成功：./back/table_json/1642260416_role.json 
+2022-01-15 23:26:56 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_plan.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_plan_tag.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_plan_score_tag.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_plan_data.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_admin_user.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_mp_user.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:28:14 [success] < back_up > 文件备份成功：./back/table_json/1642260494_role.json 
+2022-01-15 23:28:14 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_plan.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_plan_tag.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_plan_score_tag.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_plan_data.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_admin_user.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_mp_user.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:28:48 [success] < back_up > 文件备份成功：./back/table_json/1642260528_role.json 
+2022-01-15 23:28:48 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_plan.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_plan_tag.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_plan_score_tag.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_plan_data.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_admin_user.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_mp_user.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:28:57 [success] < back_up > 文件备份成功：./back/table_json/1642260537_role.json 
+2022-01-15 23:28:57 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_plan.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_plan_tag.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_plan_score_tag.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_plan_data.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_admin_user.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_mp_user.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:30:20 [success] < back_up > 文件备份成功：./back/table_json/1642260620_role.json 
+2022-01-15 23:30:20 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_plan.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_plan_tag.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_plan_score_tag.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_plan_data.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_admin_user.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_mp_user.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:31:01 [success] < back_up > 文件备份成功：./back/table_json/1642260661_role.json 
+2022-01-15 23:31:01 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_plan.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_plan_tag.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_plan_score_tag.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_plan_data.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_admin_user.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_mp_user.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:31:19 [success] < back_up > 文件备份成功：./back/table_json/1642260679_role.json 
+2022-01-15 23:31:19 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_plan.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_plan_tag.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_plan_score_tag.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_plan_data.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_admin_user.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_mp_user.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:31:32 [success] < back_up > 文件备份成功：./back/table_json/1642260692_role.json 
+2022-01-15 23:31:32 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_plan.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_plan_tag.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_plan_score_tag.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_plan_data.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_admin_user.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_mp_user.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:31:46 [success] < back_up > 文件备份成功：./back/table_json/1642260706_role.json 
+2022-01-15 23:31:46 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_plan.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_plan_tag.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_plan_score_tag.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_plan_data.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_admin_user.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_mp_user.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:32:22 [success] < back_up > 文件备份成功：./back/table_json/1642260742_role.json 
+2022-01-15 23:32:22 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_plan.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_plan_tag.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_plan_score_tag.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_plan_data.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_admin_user.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_mp_user.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:32:33 [success] < back_up > 文件备份成功：./back/table_json/1642260753_role.json 
+2022-01-15 23:32:33 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_plan.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_plan_tag.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_plan_score_tag.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_plan_data.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_admin_user.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_mp_user.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:32:42 [success] < back_up > 文件备份成功：./back/table_json/1642260762_role.json 
+2022-01-15 23:32:42 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_plan.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_plan_tag.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_plan_score_tag.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_plan_data.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_admin_user.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_mp_user.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:32:50 [success] < back_up > 文件备份成功：./back/table_json/1642260770_role.json 
+2022-01-15 23:32:50 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_plan.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_plan_tag.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_plan_score_tag.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_plan_data.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_admin_user.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_mp_user.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:34:35 [success] < back_up > 文件备份成功：./back/table_json/1642260875_role.json 
+2022-01-15 23:34:35 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_plan.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_plan_tag.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_plan_score_tag.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_plan_data.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_admin_user.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_mp_user.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:34:57 [success] < back_up > 文件备份成功：./back/table_json/1642260897_role.json 
+2022-01-15 23:34:57 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_plan.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_plan_tag.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_plan_score_tag.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_plan_data.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_admin_user.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_mp_user.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:36:32 [success] < back_up > 文件备份成功：./back/table_json/1642260992_role.json 
+2022-01-15 23:36:32 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_plan.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_plan_tag.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_plan_score_tag.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_plan_data.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_admin_user.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_mp_user.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:36:39 [success] < back_up > 文件备份成功：./back/table_json/1642260999_role.json 
+2022-01-15 23:36:39 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_plan.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_plan_tag.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_plan_score_tag.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_plan_data.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_admin_user.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_mp_user.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:37:20 [success] < back_up > 文件备份成功：./back/table_json/1642261040_role.json 
+2022-01-15 23:37:20 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_plan.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_plan_tag.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_plan_score_tag.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_plan_data.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_admin_user.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_mp_user.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:49:59 [success] < back_up > 文件备份成功：./back/table_json/1642261799_role.json 
+2022-01-15 23:49:59 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_plan.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_plan_tag.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_plan_score_tag.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_plan_data.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_admin_user.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_mp_user.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/table_json/1642261838_role.json 
+2022-01-15 23:50:38 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:50:38 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_index.vue 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:50:38 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_local.js 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:50:38 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261838_api.js 
+2022-01-15 23:50:38 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_plan.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_plan_tag.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_plan_score_tag.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_plan_data.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_admin_user.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_mp_user.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/table_json/1642261925_role.json 
+2022-01-15 23:52:05 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:52:05 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_index.vue 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:52:05 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_local.js 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:52:05 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261925_api.js 
+2022-01-15 23:52:05 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_plan.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_plan_tag.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_plan_score_tag.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_plan_data.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_admin_user.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_mp_user.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/table_json/1642261960_role.json 
+2022-01-15 23:52:40 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:52:40 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_index.vue 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:52:40 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_local.js 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:52:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261960_api.js 
+2022-01-15 23:52:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_plan.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_plan_tag.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_plan_score_tag.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_plan_data.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_admin_user.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_mp_user.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/table_json/1642261969_role.json 
+2022-01-15 23:52:49 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:52:49 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_index.vue 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:52:49 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_local.js 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:52:49 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261969_api.js 
+2022-01-15 23:52:49 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_plan.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_plan_tag.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_plan_score_tag.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_plan_data.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_admin_user.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_mp_user.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/table_json/1642261982_role.json 
+2022-01-15 23:53:02 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:53:02 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_index.vue 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:53:02 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_local.js 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:53:02 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261982_api.js 
+2022-01-15 23:53:02 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_plan.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_plan_tag.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_plan_score_tag.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_plan_data.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_admin_user.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_mp_user.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/table_json/1642261993_role.json 
+2022-01-15 23:53:13 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:53:13 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_index.vue 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:53:13 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_local.js 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:53:13 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642261993_api.js 
+2022-01-15 23:53:13 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_plan.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_plan_tag.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_plan_score_tag.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_plan_data.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_admin_user.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_mp_user.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/table_json/1642262027_role.json 
+2022-01-15 23:53:47 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:53:47 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262027_index.vue 
+2022-01-15 23:53:47 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262027_index.vue 
+2022-01-15 23:53:47 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262027_index.vue 
+2022-01-15 23:53:47 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:53:47 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262027_index.vue 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:53:48 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262028_index.vue 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:53:48 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262028_index.vue 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:53:48 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262028_index.vue 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:53:48 
+2022-01-15 23:53:48 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262028_local.js 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:53:48 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262028_api.js 
+2022-01-15 23:53:48 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_plan.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_plan_tag.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_plan_score_tag.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_plan_data.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_admin_user.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_mp_user.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/table_json/1642262037_role.json 
+2022-01-15 23:53:57 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:53:57 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262037_index.vue 
+2022-01-15 23:53:57 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262037_index.vue 
+2022-01-15 23:53:57 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:53:57 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262037_index.vue 
+2022-01-15 23:53:57 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_index.vue 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_index.vue 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_index.vue 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_index.vue 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:53:58 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_local.js 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:53:58 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262038_api.js 
+2022-01-15 23:53:58 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_plan.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_plan_tag.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_plan_score_tag.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_plan_data.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_admin_user.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_mp_user.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/table_json/1642262058_role.json 
+2022-01-15 23:54:18 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:54:18 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_index.vue 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:54:18 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_local.js 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:54:18 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262058_api.js 
+2022-01-15 23:54:18 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_plan.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_plan_tag.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_plan_score_tag.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_plan_data.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_admin_user.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_mp_user.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/table_json/1642262080_role.json 
+2022-01-15 23:54:40 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:54:40 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-tag/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-score-tag/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//plan-data/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//admin-user/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//mp-user/index.vue 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_index.vue 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages//role/index.vue 
+2022-01-15 23:54:40 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_local.js 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:54:40 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262080_api.js 
+2022-01-15 23:54:40 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_plan.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/plan.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_plan_tag.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/plan_tag.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_plan_score_tag.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/plan_score_tag.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_plan_data.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/plan_data.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_admin_user.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/admin_user.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_mp_user.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/mp_user.json 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/table_json/1642262325_role.json 
+2022-01-15 23:58:45 [success] < table_json > 生成 ./temp/table_json/role.json 
+2022-01-15 23:58:45 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/plan/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/plan-tag/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/plan-score-tag/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/plan-data/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/admin-user/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/mp-user/index.vue 
+2022-01-15 23:58:45 [warn] < back_up > 文件不存在！ 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/pages/test/role/index.vue 
+2022-01-15 23:58:45 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262325_local.js 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/router/local.js 
+2022-01-15 23:58:45 [success] < back_up > 文件备份成功：./back/antd_admin_list/1642262325_api.js 
+2022-01-15 23:58:45 [success] < antd_admin_list > 生成 /Users/wuzhiqiang/Desktop/myblog2/src/services/api.js 
