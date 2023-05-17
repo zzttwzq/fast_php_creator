@@ -1,16 +1,16 @@
 <?php
 
-include APP_ROOT . "Creators/table_info.php";
-include "create_admin.php";
-include "create_php.php";
-include "create_uni.php";
-include "create_api.php";
+include_once APP_ROOT . "Creators/table_info.php";
+include_once "create_admin.php";
+include_once "create_php.php";
+include_once "create_uni.php";
+include_once "create_api.php";
 
-include('file_handler.php');
-include('data_handler.php');
-include('table_creator.php');
-include('php_creator.php');
-include('admin_creator.php');
+include_once "Utils/file_util.php";
+include_once "Utils/data_util.php";
+include_once "Utils/table_util.php";
+
+include_once "Manager/admin_template_manager.php";
 
 class creator
 {
@@ -21,7 +21,6 @@ class creator
     public static function create($type, $param2, $param3, $param4)
     {
         if ($type == '-all') {
-
             creator::model('-all', '', '');
             creator::table('-all', '', '');
             creator::table('-seeds', '-all', '');
@@ -31,7 +30,6 @@ class creator
             creator::api('-all', '', '', '');
             creator::api('-nav', '-all', '', '');
         } else if ($type == '-n') {
-
             creator::model('-n', $param2, '');
             creator::table('-n', $param2, '');
             creator::controller('-n', $param2, '');
@@ -51,7 +49,7 @@ class creator
             creator::service($type, $param2, $param3);
         } else if ($type == '-admin') {
 
-            creator::admin($type, $param2, $param3, $param4);
+            creator::admin($param2, $param3, $param4);
         } else if ($type == '-api') {
 
             creator::api($type, $param2, $param3, $param4);
@@ -558,249 +556,53 @@ class creator
         }
     }
 
-    public static function admin($param1, $param2, $param3, $param4)
+    /** 
+     * admin 管理系统的生成操作
+     *      
+     * @param String param1 参数1，作用返回，-all全部，-n部分；
+     * @param String param2 参数2，参数1 为-n后，需要提供表明，用,或者空格分开即可
+     * @param String param3 文件或文件夹路径
+     */
+    public static function admin($param1, $param2, $param3)
     {
         $array = [];
         if ($param1 == '-all') {
-
             $array = table_info::get_table_info();
-
             if (count($array) > 0) {
 
-                $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会新建 [$param2] list 和 edit文件 是否继续？ y/N");
-
+                $input = creator::get_input("是否需要重新生成pages文件？ y/N");
                 if ($input == 'y') {
-
-                    create_admin::create_lists($array);
-                    create_admin::create_edits($array);
-                }
-
-                $input = creator::get_input("是否重建导航栏？ y/N");
-                if ($input == 'y') {
-
-                    create_admin::reset_routers($array);
-                    create_admin::reset_navs($array);
+                    AdminTemplateManager::create($array);
                 }
             } else {
-
                 LocalLog::WARN("Create_php", "创建的数组为空！");
             }
         } else if ($param1 == '-n') {
 
-            $array = creator::get_model_array($param2);
-
+            $array = TableUtil::tableInfoFromNames($param2);
             if (count($array) > 0) {
 
-                $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会新建 [$param2] list 和 edit文件 是否继续？ y/N");
-
+                $input = creator::get_input("是否需要重新生成 '$param2' pages文件？ y/N");
                 if ($input == 'y') {
-
-                    create_admin::create_lists($array);
-                    create_admin::create_edits($array);
-                }
-
-                $input = creator::get_input("是否重建导航栏？ y/N");
-
-                if ($input == 'y') {
-
-                    create_admin::reset_routers($array);
-                    create_admin::reset_navs($array);
+                    AdminTemplateManager::create($array);
                 }
             } else {
 
                 LocalLog::WARN("Create_php", "创建的数组为空！");
             }
-        } else if ($param1 == '-list') {
-
-            if ($param2 == '-all') {
-
-                $array = table_info::get_table_info();
-            } else if ($param2 == '-n') {
-
-                $array = creator::get_model_array($param3);
-            } else {
-                LocalLog::ERROR("admin", "未指定表名称！");
-            }
-
-            if (count($array) > 0) {
-
-                $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会新建 [$param3] list 和 edit文件 是否继续？ y/N");
-
-                if ($input == 'y') {
-
-                    create_admin::create_lists($array);
-                }
-
-                $input = creator::get_input("是否重建导航栏？ y/N");
-
-                if ($input == 'y') {
-
-                    create_admin::reset_routers($array);
-                    create_admin::reset_navs($array);
-                }
-            } else {
-
-                LocalLog::WARN("Create_php", "创建的数组为空！");
-            }
-        } else if ($param1 == '-edit') {
-
-            if ($param2 == '-all') {
-
-                $array = table_info::get_table_info();
-            } else if ($param2 == '-n') {
-
-                $array = creator::get_model_array($param3);
-            } else {
-                LocalLog::ERROR("admin", "未指定表名称！");
-            }
-
-            if (count($array) > 0) {
-
-                $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会新建 [$param3] list 和 edit文件 是否继续？ y/N");
-
-                if ($input == 'y') {
-
-                    create_admin::create_edits($array);
-                }
-            } else {
-
-                LocalLog::WARN("Create_php", "创建的数组为空！");
-            }
-        } else if ($param1 == '-router') {
-
-            if ($param2 == '-all') {
-
-                $array = table_info::get_table_info();
-            } else if ($param2 == '-clear') {
-
-                $array = [];
-            } else if ($param2 == '-n') {
-
-                $array = creator::get_model_array($param3);
-            } else {
-                LocalLog::ERROR("admin", "未指定表名称！");
-            }
-
-            $input = creator::get_input("是否重建路由？ y/N");
-
+        } else if ($param1 == '-clear') {
+            $array = table_info::get_table_info();
+            $input = creator::get_input("此操作会清空 admin 生成的所有内容，是否继续？ y/N");
             if ($input == 'y') {
-
-                create_admin::reset_routers($array);
-            }
-        } else if ($param1 == '-nav') {
-
-            if ($param2 == '-all') {
-
-                $array = table_info::get_table_info();
-            } else if ($param2 == '-clear') {
-
-                $array = [];
-            } else if ($param2 == '-n') {
-
-                $array = creator::get_model_array($param3);
-            } else {
-                LocalLog::ERROR("admin", "未指定表名称！");
-            }
-
-            $input = creator::get_input("是否重建路由？ y/N");
-
-            if ($input == 'y') {
-
-                create_admin::reset_navs($array);
-            }
-        } else if ($param1 == '-delete') {
-
-            if ($param2 == '-all') {
-
-                $array = table_info::get_table_info();
-
-                if (count($array) > 0) {
-
-                    $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会删除 [$param3] list 和 edit文件 是否继续？ y/N");
-
-                    if ($input == 'y') {
-
-                        create_admin::delete_lists($array);
-                        create_admin::delete_edits($array);
-                        create_admin::reset_routers();
-                        create_admin::reset_navs();
-                    }
-                } else {
-
-                    LocalLog::WARN("Create_php", "创建的数组为空！");
-                }
-            } else if ($param2 == '-n') {
-
-                $array = creator::get_model_array($param3);
-
-                if (count($array) > 0) {
-
-                    $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会删除 [$param3] list 和 edit文件 是否继续？ y/N");
-
-                    if ($input == 'y') {
-
-                        create_admin::delete_lists($array);
-                        create_admin::delete_edits($array);
-                        create_admin::reset_routers();
-                        create_admin::reset_navs();
-                    }
-                } else {
-
-                    LocalLog::WARN("Create_php", "创建的数组为空！");
-                }
-            } else if ($param2 == '-list') {
-
-                if ($param3 == '-all') {
-
-                    $array = table_info::get_table_info();
-                } else if ($param3 == '-n') {
-
-                    $array = creator::get_model_array($param4);
-                }
-
-                if (count($array) > 0) {
-
-                    $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会删除 [$param4] list 文件 是否继续？ y/N");
-
-                    if ($input == 'y') {
-
-                        create_admin::delete_lists($array);
-                    }
-                } else {
-                    LocalLog::WARN("Create_php", "创建的数组为空！");
-                }
-            } else if ($param2 == '-edit') {
-
-                if ($param3 == '-all') {
-
-                    $array = table_info::get_table_info();
-                } else if ($param3 == '-n') {
-
-                    $array = creator::get_model_array($param4);
-                }
-
-                if (count($array) > 0) {
-
-                    $input = creator::get_input("当前目录：" . APP_ROOT . "admin/src/home/ 当前操作会删除 [$param4] list 文件 是否继续？ y/N");
-
-                    if ($input == 'y') {
-
-                        create_admin::delete_edits($array);
-                    }
-                } else {
-                    LocalLog::WARN("Create_php", "创建的数组为空！");
-                }
-            } else {
-                LocalLog::ERROR("admin", "未指定表名称！");
+                AdminTemplateManager::clear($array);
             }
         } else {
 
             LocalLog::ERROR("admin", "找不到命令！");
             echo "请尝试以下命令：\r\n\r\n";
-            echo "admin -all\r\n";
-            echo "admin -n table_name1,table_name2\r\n";
-            echo "admin -delete -all \r\n";
-            echo "admin -delete -n table_name1,table_name2\r\n";
+            echo "create -admin -all\r\n";
+            echo "create -admin -n table_name1,table_name2\r\n";
+            echo "create -admin -clear \r\n";
             echo "\r\n";
         }
     }
@@ -1117,6 +919,9 @@ class creator
     public static function get_model_array($names)
     {
         $name_array = explode(',', $names);
+        if (count($name_array) == 1) {
+            $name_array = explode(' ', $names);
+        }
 
         $create_infos = [];
         $table_info = table_info::get_table_info();
@@ -1220,9 +1025,6 @@ class creator
             }
         }
     }
-
-
-
 
     public static function transfer_data()
     {

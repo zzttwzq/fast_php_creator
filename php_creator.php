@@ -24,7 +24,7 @@ class PHPCreator {
         $phpCreator->createRouters($array);
 
         LocalLog::SEPRATOR("create_php", "============================ [新建PHP结束] ============================");
-    }
+    } 
 
     function createModels($table_array)
     {

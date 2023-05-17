@@ -1,12 +1,12 @@
 <?php
 
-class DataHandler
+class DataUtil
 {
     public static function createData($array)
     {
         LocalLog::SEPRATOR("create_data", "============================ [新建数据开始] ============================");
 
-        $data = new DataHandler();
+        $data = new DataUtil();
         $data->createJsonFromPHPData($array);
 
         LocalLog::SEPRATOR("create_data", "============================ [新建数据结束] ============================");
@@ -22,7 +22,7 @@ class DataHandler
             $arr = explode(':', $key);
             $class = $arr[0];
             $classDes = $arr[1];
-            $upClass = DataHandler::getUpClassName($class);
+            $upClass = DataUtil::getUpClassName($class);
 
             $data_array['name'] = $class;
             $data_array['className'] = $upClass;
@@ -33,21 +33,21 @@ class DataHandler
                 $column = $arr2[0];
                 $columnDes = $arr2[1];
 
-                $formType = DataHandler::getFormType($value2, $columnDes);
+                $formType = DataUtil::getFormType($value2, $columnDes);
                 $it = array(
-                    'title' => DataHandler::getTitle($columnDes),
-                    'des' => DataHandler::getDes($columnDes),
+                    'title' => DataUtil::getTitle($columnDes),
+                    'des' => DataUtil::getDes($columnDes),
                     'dataType' => $value2,
-                    'jsType' => DataHandler::getJsType($value2),
-                    'limit' => DataHandler::getLimit($value2),
-                    'isGetList' => DataHandler::getIsGetList($value2),
+                    'jsType' => DataUtil::getJsType($value2),
+                    'limit' => DataUtil::getLimit($value2),
+                    'isGetList' => DataUtil::getIsGetList($value2),
                     'formType' => $formType,
                     'required' => 1,
                     'showInSearch' => 1,
                 );
 
                 if ($formType == 'select') {
-                    $it['options'] = DataHandler::getOptions($columnDes);
+                    $it['options'] = DataUtil::getOptions($columnDes);
                 }
 
                 $data_array['props'][$column] = $it;
@@ -230,10 +230,10 @@ class DataHandler
     }
 
     /**
- 　　 * 驼峰命名转下划线命名
- 　　 * 思路:
- 　　 * 小写和大写紧挨一起的地方,加上分隔符,然后全部转小写
- 　　 */
+　　 * 驼峰命名转下划线命名
+　　 * 思路:
+　　 * 小写和大写紧挨一起的地方,加上分隔符,然后全部转小写
+　　 */
     public static function uncamelize($camelCaps, $separator = '_')
     {
         return strtolower(preg_replace('/([a-z])([A-Z])/', "$1" . $separator . "$2", $camelCaps));
