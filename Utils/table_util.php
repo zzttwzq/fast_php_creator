@@ -10,6 +10,7 @@ class TableUtil
      */
     public static function tableInfoFromNames($names)
     {
+        include_once APP_ROOT . "Creators/table_info.php";
         $name_array = explode(',', $names);
 
         $create_infos = [];

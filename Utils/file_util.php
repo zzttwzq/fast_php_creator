@@ -37,14 +37,14 @@ class FileUtil
      * @param String sourceFilePath 源文件路径
      * @param String destinationPath 目标路径，默认是空
      */
-    public static function backupFile($sourceFilePath, $destinationPath = '')
+    public static function backupFile($sourceFilePath, $tag = "", $destinationPath = '')
     {
         $a = explode('/', $sourceFilePath);
-        $tag = $a[count($a) - 3];
+        $subTag = $a[count($a) - 3];
         $class = $a[count($a) - 2];
         $file = $a[count($a) - 1];
-        if ($tag == "src") {
-            $tag = $a[count($a) - 2];
+        if ($subTag == "src") {
+            $subTag = $a[count($a) - 2];
         }
 
         $config = AppConfig::getConfig();
@@ -52,7 +52,7 @@ class FileUtil
         $backup_path = $app_creator->backup_path;
 
         if (strlen($destinationPath) == 0) {
-            $destinationPath = $backup_path . "admin/$tag" . "_" . time() . "/" . $class . "/";
+            $destinationPath = $backup_path . "$tag/$subTag" . "_" . time() . "/" . $class . "/";
         }
 
         FileUtil::makeDir($destinationPath);
@@ -76,9 +76,7 @@ class FileUtil
     public static function writeFile($path, $data, $tag = '')
     {
         // 备份文件
-        FileUtil::backupFile($path);
-
-        echo $path;
+        FileUtil::backupFile($path, $tag);
 
         $fp = fopen($path, 'w+');
 

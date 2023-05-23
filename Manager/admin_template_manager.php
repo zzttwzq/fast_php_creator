@@ -2,6 +2,8 @@
 
 class AdminTemplateManager
 {
+    var $appName = "";
+
     var $createPagePath = "";
     var $createRouterPath = "";
     var $createApiPath = "";
@@ -10,7 +12,11 @@ class AdminTemplateManager
     var $pagePrefix = "";
     var $routerPrefix = "";
     var $apiPrefix = "";
-
+ 
+    /** 
+     * 获取实例对象
+     *      
+     */
     public static function getInstence()
     {
         // 获取配置信息
@@ -23,6 +29,7 @@ class AdminTemplateManager
         $admin_creator->createRouterPath =  $app_creator->admin->router;
         $admin_creator->createApiPath =  $app_creator->admin->api;
         $admin_creator->createRequestPath =  $app_creator->admin->request;
+        $admin_creator->appName = $config->app_name;
 
         $admin_creator->pagePrefix =  "";
         $admin_creator->routerPrefix =  "";
@@ -43,12 +50,12 @@ class AdminTemplateManager
      */
     public static function create($table_array)
     {
-        LocalLog::SEPRATOR("create_admin", "============================ [新建admin开始] ============================");
+        LocalLog::SEPRATOR("admin_create", "============================ [新建admin开始] ============================");
 
         $admin_creator = AdminTemplateManager::getInstence();
 
         // 创建页面
-        // $admin_creator->createPages($table_array);
+        $admin_creator->createPages($table_array);
 
         // 创建路由
         $admin_creator->createRouters($table_array);
@@ -57,7 +64,7 @@ class AdminTemplateManager
         $admin_creator->createApis($table_array);
         $admin_creator->createRequest($table_array);
 
-        LocalLog::SEPRATOR("create_admin", "============================ [新建Admin结束] ============================");
+        LocalLog::BLANK("admin_create", "");
     }
 
     /** 
@@ -119,6 +126,8 @@ class AdminTemplateManager
      */
     function createRequest($table_array)
     {
+        LocalLog::SEPRATOR("admin_request", "============================ [新建列表文件开始] ============================");
+
         $path = $this->createRequestPath . "request.js";
 
         $requests = "\r\n";
@@ -130,10 +139,10 @@ class AdminTemplateManager
             $des = TableUtil::getClassDes($key);
             // $className = TableUtil::getClassName($key);
             $up = strtoupper($name);
-            
-            $upName = $up."_ADD";
+
+            $upName = $up . "_ADD";
             $apis .= "\r\n\r\n    // $des";
-            $apis .= "\r\n    ".$upName.",";
+            $apis .= "\r\n    " . $upName . ",";
 
             $requests .= "\r\n\r\n//************************ $des\r\n";
             $requests .= "/**\r\n";
@@ -142,43 +151,43 @@ class AdminTemplateManager
             $requests .= "* @returns {\r\n";
             $requests .= "  }\r\n";
             $requests .= " */\r\n";
-            $requests .= "export async function post_". $name . "_add(params) {\r\n";
+            $requests .= "export async function post_" . $name . "_add(params) {\r\n";
             $requests .= "    return request($upName, METHOD.POST, params ? params : {}, null)\r\n";
             $requests .= "}\r\n\r\n";
 
-            $upName = $up."_UPDATE";
-            $apis .= "\r\n    ".$upName.",";
+            $upName = $up . "_UPDATE";
+            $apis .= "\r\n    " . $upName . ",";
             $requests .= "/**\r\n";
             $requests .= " * $des 修改\r\n";
             $requests .= " \r\n";
             $requests .= "* @returns {\r\n";
             $requests .= "  }\r\n";
             $requests .= " */\r\n";
-            $requests .= "export async function post_". $name . "_update(params) {\r\n";
+            $requests .= "export async function post_" . $name . "_update(params) {\r\n";
             $requests .= "    return request($upName, METHOD.POST, params ? params : {}, null)\r\n";
             $requests .= "}\r\n\r\n";
 
-            $upName = $up."_DELETE";
-            $apis .= "\r\n    ".$upName.",";
+            $upName = $up . "_DELETE";
+            $apis .= "\r\n    " . $upName . ",";
             $requests .= "/**\r\n";
             $requests .= " * $des 删除\r\n";
             $requests .= " \r\n";
             $requests .= "* @returns {\r\n";
             $requests .= "  }\r\n";
             $requests .= " */\r\n";
-            $requests .= "export async function post_". $name . "_delete(params) {\r\n";
+            $requests .= "export async function post_" . $name . "_delete(params) {\r\n";
             $requests .= "    return request($upName, METHOD.POST, params ? params : {}, null)\r\n";
             $requests .= "}\r\n\r\n";
 
-            $upName = $up."_LIST";
-            $apis .= "\r\n    ".$upName.",";
+            $upName = $up . "_LIST";
+            $apis .= "\r\n    " . $upName . ",";
             $requests .= "/**\r\n";
             $requests .= " * $des 列表\r\n";
             $requests .= " \r\n";
             $requests .= "* @returns {\r\n";
             $requests .= "  }\r\n";
             $requests .= " */\r\n";
-            $requests .= "export async function get_". $name . "_list(params) {\r\n";
+            $requests .= "export async function get_" . $name . "_list(params) {\r\n";
             $requests .= "    return request($upName, METHOD.GET, params ? params : {}, null)\r\n";
             $requests .= "}\r\n";
         }
@@ -186,12 +195,14 @@ class AdminTemplateManager
         $contents = FileUtil::readFile($path);
         $contents = explode("//### 自动生成的Api", $contents);
 
-        $contents[1] = $apis."\r\n    ";
+        $contents[1] = $apis . "\r\n    ";
         $contents[3] = $requests;
 
         $contents = join("//### 自动生成的Api", $contents);
 
         FileUtil::writeFile($path, $contents, 'admin');
+
+        LocalLog::BLANK("admin_request", "");
     }
 
     /** 
@@ -201,6 +212,8 @@ class AdminTemplateManager
      */
     function createApis($table_array)
     {
+        LocalLog::SEPRATOR("admin_api", "============================ [新建列表文件开始] ============================");
+
         $contents = FileUtil::readFile($this->createApiPath);
         $contents = explode("//### 自动生成的Apis", $contents);
 
@@ -209,33 +222,36 @@ class AdminTemplateManager
             $name = TableUtil::getTableName($key);
             $des = TableUtil::getClassDes($key);
             $className = TableUtil::getClassName($key);
+            $appName = $this->appName;
 
             $string .= "\r\n    // $des \r\n";
             $apiName = $name . "_add";
             $apiDes = "增加" . $des;
-            $apiKey = strtoupper($name);
-            $string .= "    $apiKey: `\${BASE_URL}/blog/$apiName`, // $apiDes \r\n";
+            $apiKey = strtoupper($apiName);
+            $string .= "    $apiKey: `\${BASE_URL}/$appName/$apiName`, // $apiDes \r\n";
 
             $apiName = $name . "_update";
             $apiDes = "修改" . $des;
-            $apiKey = strtoupper($name);
-            $string .= "    $apiKey: `\${BASE_URL}/blog/$apiName`, // $apiDes \r\n";
+            $apiKey = strtoupper($apiName);
+            $string .= "    $apiKey: `\${BASE_URL}/$appName/$apiName`, // $apiDes \r\n";
 
             $apiName = $name . "_delete";
             $apiDes = "删除" . $des;
-            $apiKey = strtoupper($name);
-            $string .= "    $apiKey: `\${BASE_URL}/blog/$apiName`, // $apiDes \r\n";
+            $apiKey = strtoupper($apiName);
+            $string .= "    $apiKey: `\${BASE_URL}/$appName/$apiName`, // $apiDes \r\n";
 
             $apiName = $name . "_list";
             $apiDes = "查询" . $des;
-            $apiKey = strtoupper($name);
-            $string .= "    $apiKey: `\${BASE_URL}/blog/$apiName`, // $apiDes \r\n";
+            $apiKey = strtoupper($apiName);
+            $string .= "    $apiKey: `\${BASE_URL}/$appName/$apiName`, // $apiDes \r\n";
         }
 
         $contents[1] = "\r\n" . $string . "    ";
         $contents = join("//### 自动生成的Apis", $contents);
 
         FileUtil::writeFile($this->createApiPath, $contents, 'admin');
+
+        LocalLog::BLANK("admin_api", "");
     }
 
     /** 
@@ -245,8 +261,10 @@ class AdminTemplateManager
      */
     function createRouters($table_array)
     {
+        LocalLog::SEPRATOR("admin_router", "============================ [新建列表文件开始] ============================");
+
         // 备份路由 
-        FileUtil::backupFile($this->createRouterPath);
+        FileUtil::backupFile($this->createRouterPath, 'admin');
 
         $contents = FileUtil::readFile($this->createRouterPath);
         $contents = explode("//### 自动生成的Router", $contents);
@@ -271,6 +289,8 @@ class AdminTemplateManager
         $contents = join("//### 自动生成的Router", $contents);
 
         FileUtil::writeFile($this->createRouterPath, $contents, 'admin');
+
+        LocalLog::BLANK("admin_router", "");
     }
 
     /** 
@@ -281,13 +301,13 @@ class AdminTemplateManager
      */
     function createPages($table_array)
     {
-        LocalLog::SEPRATOR("admin", "============================ [新建列表文件开始] ============================");
+        LocalLog::SEPRATOR("admin_page", "============================ [新建列表文件开始] ============================");
 
         foreach ($table_array as $key => $value) {
             $this->createAntdPage($key, $value);
         }
 
-        LocalLog::SEPRATOR("admin", "============================ [新建列表文件结束] ============================");
+        LocalLog::BLANK("admin_page", "");
     }
 
     /** 
@@ -314,7 +334,7 @@ class AdminTemplateManager
             $d = $value['des'];
 
             $columns .= "        {\r\n";
-            $columns .= "          title: '$key',//$d\r\n";
+            $columns .= "          title: '$d',//$d\r\n";
             $columns .= "          dataIndex: '$key',\r\n";
 
             if (isset($value['sort'])) {
@@ -461,6 +481,6 @@ class AdminTemplateManager
         $string .= "</style>\r\n";
         $string .= "\r\n";
 
-        FileUtil::writeFile("$dirPath/index.vue", $string, 'antd_admin_list');
+        FileUtil::writeFile("$dirPath/index.vue", $string, 'admin');
     }
 }
