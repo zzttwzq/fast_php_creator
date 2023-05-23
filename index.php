@@ -34,7 +34,9 @@ class creator
         } else if ($type == '-php') {
             creator::php($param2, $param3, $param4);
         } else if ($type == '-table') {
-            creator::table($type, $param2, $param3);
+            // creator::table($type, $param2, $param3);
+        } else if ($type == '-db') {
+            TableManager::createDatabase($param2);
         } else {
             LocalLog::ERROR("create", "无效的命令！");
         }
